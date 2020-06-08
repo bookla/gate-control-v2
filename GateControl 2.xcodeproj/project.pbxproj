@@ -3,20 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		907D9988BC1157FE588465D6 /* Pods_GateControl_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335CCAA8D9660BBA3F4E2B34 /* Pods_GateControl_2.framework */; };
 		FD04247523C6DEDB0045D23A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04247423C6DEDB0045D23A /* AppDelegate.swift */; };
 		FD04247723C6DEDB0045D23A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04247623C6DEDB0045D23A /* SceneDelegate.swift */; };
 		FD04247923C6DEDB0045D23A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04247823C6DEDB0045D23A /* ViewController.swift */; };
 		FD04247C23C6DEDB0045D23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD04247A23C6DEDB0045D23A /* Main.storyboard */; };
 		FD04247E23C6DEE00045D23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD04247D23C6DEE00045D23A /* Assets.xcassets */; };
 		FD04248123C6DEE00045D23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD04247F23C6DEE00045D23A /* LaunchScreen.storyboard */; };
+		FD14C5E223F6EB8B0005D9C6 /* SelectorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14C5E123F6EB8B0005D9C6 /* SelectorTableViewController.swift */; };
+		FD89FFB823F65300006AB7F3 /* OneTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD89FFB723F65300006AB7F3 /* OneTimeViewController.swift */; };
+		FDFA52D523F4E0E200F2C339 /* qrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA52D423F4E0E200F2C339 /* qrViewController.swift */; };
+		FDFA52D723F4FCCB00F2C339 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFA52D623F4FCCA00F2C339 /* GoogleService-Info.plist */; };
+		FDFA52D923F5084F00F2C339 /* PairGateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA52D823F5084F00F2C339 /* PairGateViewController.swift */; };
+		FDFA52DB23F5128F00F2C339 /* ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA52DA23F5128F00F2C339 /* ControllerViewController.swift */; };
+		FDFA52DF23F5291600F2C339 /* SelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA52DE23F5291600F2C339 /* SelectorTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FD04247123C6DEDB0045D23A /* GateControl 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GateControl 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		335CCAA8D9660BBA3F4E2B34 /* Pods_GateControl_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GateControl_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC740160A36DB8105F933BC /* Pods-GateControl 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateControl 2.debug.xcconfig"; path = "Target Support Files/Pods-GateControl 2/Pods-GateControl 2.debug.xcconfig"; sourceTree = "<group>"; };
+		D3A63FA333A42660F942E27F /* Pods-GateControl 2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateControl 2.release.xcconfig"; path = "Target Support Files/Pods-GateControl 2/Pods-GateControl 2.release.xcconfig"; sourceTree = "<group>"; };
+		FD04247123C6DEDB0045D23A /* GateControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GateControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD04247423C6DEDB0045D23A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD04247623C6DEDB0045D23A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FD04247823C6DEDB0045D23A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		FD04247D23C6DEE00045D23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD04248023C6DEE00045D23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD04248223C6DEE00045D23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD14C5E123F6EB8B0005D9C6 /* SelectorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorTableViewController.swift; sourceTree = "<group>"; };
+		FD89FFB723F65300006AB7F3 /* OneTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTimeViewController.swift; sourceTree = "<group>"; };
+		FDFA52D423F4E0E200F2C339 /* qrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrViewController.swift; sourceTree = "<group>"; };
+		FDFA52D623F4FCCA00F2C339 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FDFA52D823F5084F00F2C339 /* PairGateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairGateViewController.swift; sourceTree = "<group>"; };
+		FDFA52DA23F5128F00F2C339 /* ControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerViewController.swift; sourceTree = "<group>"; };
+		FDFA52DE23F5291600F2C339 /* SelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +49,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				907D9988BC1157FE588465D6 /* Pods_GateControl_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D7A2B1BD3C00DA665B2CBB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				335CCAA8D9660BBA3F4E2B34 /* Pods_GateControl_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8B040D97E3D4B9362C4B223 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EC740160A36DB8105F933BC /* Pods-GateControl 2.debug.xcconfig */,
+				D3A63FA333A42660F942E27F /* Pods-GateControl 2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FD04246823C6DEDB0045D23A = {
 			isa = PBXGroup;
 			children = (
 				FD04247323C6DEDB0045D23A /* GateControl 2 */,
 				FD04247223C6DEDB0045D23A /* Products */,
+				D8B040D97E3D4B9362C4B223 /* Pods */,
+				8D7A2B1BD3C00DA665B2CBB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		FD04247223C6DEDB0045D23A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD04247123C6DEDB0045D23A /* GateControl 2.app */,
+				FD04247123C6DEDB0045D23A /* GateControl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,10 +94,17 @@
 		FD04247323C6DEDB0045D23A /* GateControl 2 */ = {
 			isa = PBXGroup;
 			children = (
+				FD14C5E123F6EB8B0005D9C6 /* SelectorTableViewController.swift */,
+				FDFA52D623F4FCCA00F2C339 /* GoogleService-Info.plist */,
+				FDFA52DE23F5291600F2C339 /* SelectorTableViewCell.swift */,
 				FD04247423C6DEDB0045D23A /* AppDelegate.swift */,
 				FD04247623C6DEDB0045D23A /* SceneDelegate.swift */,
 				FD04247823C6DEDB0045D23A /* ViewController.swift */,
 				FD04247A23C6DEDB0045D23A /* Main.storyboard */,
+				FD89FFB723F65300006AB7F3 /* OneTimeViewController.swift */,
+				FDFA52D823F5084F00F2C339 /* PairGateViewController.swift */,
+				FDFA52DA23F5128F00F2C339 /* ControllerViewController.swift */,
+				FDFA52D423F4E0E200F2C339 /* qrViewController.swift */,
 				FD04247D23C6DEE00045D23A /* Assets.xcassets */,
 				FD04247F23C6DEE00045D23A /* LaunchScreen.storyboard */,
 				FD04248223C6DEE00045D23A /* Info.plist */,
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD04248523C6DEE00045D23A /* Build configuration list for PBXNativeTarget "GateControl 2" */;
 			buildPhases = (
+				99BF0301582FD829B6EF2DB3 /* [CP] Check Pods Manifest.lock */,
 				FD04246D23C6DEDB0045D23A /* Sources */,
 				FD04246E23C6DEDB0045D23A /* Frameworks */,
 				FD04246F23C6DEDB0045D23A /* Resources */,
+				09777D3162252F91BD891A05 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +131,7 @@
 			);
 			name = "GateControl 2";
 			productName = "GateControl 2";
-			productReference = FD04247123C6DEDB0045D23A /* GateControl 2.app */;
+			productReference = FD04247123C6DEDB0045D23A /* GateControl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,19 +175,68 @@
 				FD04248123C6DEE00045D23A /* LaunchScreen.storyboard in Resources */,
 				FD04247E23C6DEE00045D23A /* Assets.xcassets in Resources */,
 				FD04247C23C6DEDB0045D23A /* Main.storyboard in Resources */,
+				FDFA52D723F4FCCB00F2C339 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09777D3162252F91BD891A05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GateControl 2/Pods-GateControl 2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GateControl 2/Pods-GateControl 2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GateControl 2/Pods-GateControl 2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BF0301582FD829B6EF2DB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GateControl 2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD04246D23C6DEDB0045D23A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD89FFB823F65300006AB7F3 /* OneTimeViewController.swift in Sources */,
+				FD14C5E223F6EB8B0005D9C6 /* SelectorTableViewController.swift in Sources */,
 				FD04247923C6DEDB0045D23A /* ViewController.swift in Sources */,
+				FDFA52DF23F5291600F2C339 /* SelectorTableViewCell.swift in Sources */,
 				FD04247523C6DEDB0045D23A /* AppDelegate.swift in Sources */,
 				FD04247723C6DEDB0045D23A /* SceneDelegate.swift in Sources */,
+				FDFA52D923F5084F00F2C339 /* PairGateViewController.swift in Sources */,
+				FDFA52DB23F5128F00F2C339 /* ControllerViewController.swift in Sources */,
+				FDFA52D523F4E0E200F2C339 /* qrViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +378,7 @@
 		};
 		FD04248623C6DEE00045D23A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC740160A36DB8105F933BC /* Pods-GateControl 2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,14 +389,15 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Book-Lailert.GateControl-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GateControl;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FD04248723C6DEE00045D23A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A63FA333A42660F942E27F /* Pods-GateControl 2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,9 +408,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Book-Lailert.GateControl-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GateControl;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

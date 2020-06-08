@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1008257090870-ahubpp5htoiv1ksgt0gh6gbj376lp9uh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1008257090870-ahubpp5htoiv1ksgt0gh6gbj376lp9uh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCCy3eurkc5ltLNfDUT17LC97BGMQstr_o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1008257090870</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Book-Lailert.GateControl-2</string>
+	<key>PROJECT_ID</key>
+	<string>gatecontrol-1d7ab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gatecontrol-1d7ab.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1008257090870:ios:f1396f969c6f643472df97</string>
+	<key>DATABASE_URL</key>
+	<string>https://gatecontrol-1d7ab.firebaseio.com</string>
+</dict>
+</plist>
